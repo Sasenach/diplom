@@ -1,0 +1,36 @@
+name: kurskafedesktop
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.0-245.0.dev <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  #работа с АПИ
+  dio: ^5.0.1
+  #для дат
+  intl: ^0.18.0
+  #шерды
+  shared_preferences: ^2.0.8
+  #кеширование
+  hive: ^2.2.3
+  #Bloc
+  flutter_bloc: ^8.1.2
+  #Создание pdf файлов
+  pdf: ^3.10.2
+  #Печать pdf файлов
+  # printing: ^5.10.4
+  #Адаптивный текст
+  auto_size_text: ^3.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
